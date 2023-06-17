@@ -8,7 +8,7 @@ export default function Hero() {
     useEffect(() => {
         WebViewer(
             {
-                path: '/lib',
+                path: '/webviewer/lib',
                 // licenseKey: 'YOUR_LICENSE_KEY',
                 initialDoc: 'https://pdftron.s3.amazonaws.com/downloads/pl/demo-annotated.pdf',
             },
